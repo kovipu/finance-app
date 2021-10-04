@@ -1,0 +1,11 @@
+query accounts {
+  nordnetAccounts {
+    accno
+    type
+    returns {
+      result_1_month {
+        value
+      }
+    }
+  }
+}
